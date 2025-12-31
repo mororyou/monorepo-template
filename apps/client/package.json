@@ -11,7 +11,7 @@
     "test:watch": "vitest watch",
     "test:ui": "vitest --ui",
     "test:coverage": "vitest --coverage",
-    "lint": "next lint --max-warnings 0",
+    "lint": "eslint . --max-warnings 0",
     "check-types": "tsc --noEmit",
     "clean": "rm -rf .turbo .next node_modules"
   },
